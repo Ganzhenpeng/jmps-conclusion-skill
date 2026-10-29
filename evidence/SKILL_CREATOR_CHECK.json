@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "message": "Skill is valid!",
+  "validator": "skill-creator/scripts/quick_validate.py (unmodified)",
+  "yaml_version": "6.0.3",
+  "dependency_scope": "isolated local QA directory only; not a skill runtime dependency",
+  "ui_metadata_checks": "passed"
+}

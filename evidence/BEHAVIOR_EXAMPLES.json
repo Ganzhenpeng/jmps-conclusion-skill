@@ -1,0 +1,328 @@
+{
+  "scope": "Original bilingual writing tests, not source conclusions or current-project scientific findings. No blinded superiority claim.",
+  "frozen_rule_hashes": {
+    "SKILL.md": "5cfde2a361eae481a89cfa90e7993fda4e742e81b4215a256eb19af8125e8000",
+    "references/conclusion-craft.md": "b95fe48cf547515c5e035e90bbb3cb16a4421daedcd3dab7afcd359381c271dd",
+    "references/failure-patterns.md": "6f676bcf178014e3f62516ce714aad10f6b5b99d5e99a5b69fc8dad38872c8f7",
+    "references/project-adaptation.md": "4e4356d329b17ff788bb3bc806a11f367faf74b346714f138c28b918ead2229d"
+  },
+  "real_paper_examples": [
+    {
+      "group": "jmps",
+      "test_id": "H-J53",
+      "sample_id": "J53",
+      "family_independence": "clean_within_frozen_manifest",
+      "input_scope": "Source conclusion lines1717–1747, plus first-page identity; original source is local and not redistributed.",
+      "input_fact_summary": "New degradation functions permit study of shape effects independent of regularization length. Standard quadratic functions delay crack propagation and overestimate critical loads; adjusting length cannot fix that problem. Proper calibration improves accuracy. The current reduced-parameter formulation preserving prefracture linear response still has a spurious bulk-energy dip after nucleation; reducing length alleviates it with greater mesh cost.",
+      "output_zh": "新的能量退化函数族区分了函数形状与相场正则化长度对脆性断裂响应的影响。标准二次退化函数导致的裂纹扩展起始延迟和临界载荷过估，不能仅靠调整正则化长度消除；所提函数在适当校准后提高了模拟精度。当前保留断裂前线弹性响应的简化校准仍会引入起裂后的伪能量下降，减小正则化长度虽可缓解这一问题，也增加了网格成本。准确描述起裂因而需要审视退化函数的形式及其校准，不能只调整长度参数。",
+      "output_en": "The proposed degradation functions distinguish the influence of function shape from that of the phase-field regularization length in brittle-fracture simulations. The delayed crack propagation and excessive critical loads produced by the standard quadratic function cannot be corrected solely by changing this length. Appropriate calibration improves accuracy, but the present reduced-parameter formulation, which preserves the prefracture linear response, still produces a spurious decrease in bulk energy after crack nucleation. A smaller regularization length alleviates this artifact at greater meshing cost. Accurate prediction therefore requires attention to the degradation function and its calibration, rather than reliance on length adjustment alone.",
+      "checks": {
+        "truth_conditions": "pass: proper calibration and current formulation are retained; length effects on old overprediction and new energy dip are not conflated.",
+        "evidence_strength": "pass: numerical improvement is not called an analytical proof or experimental validation.",
+        "counterexample_and_tradeoff": "pass: standard-function failure and residual artifact/cost remain explicit.",
+        "no_new_data": "pass: no invented accuracy, time or cost percentages.",
+        "no_new_causal_claim": "pass: relationships and interpretation restate those explicitly discussed by the source.",
+        "bilingual_equivalence": "pass: both languages retain the same condition, artifact and cost tradeoff."
+      },
+      "verdict": "pass"
+    },
+    {
+      "group": "jmps",
+      "test_id": "H-J57",
+      "sample_id": "J57",
+      "family_independence": "clean_within_frozen_manifest",
+      "input_scope": "Source conclusion lines751–768; necessary result/data-generation context lines554–557,643–646,720–745 read separately.",
+      "input_fact_summary": "NN-EUCLID learns hyperelasticity without stress labels using displacement and global-force inputs and momentum-balance constraints. Isotropic/anisotropic benchmarks use synthetic FEM data with added noise. Generalization and FEM deployment are demonstrated for tested states/geometries; significant mismatch appears at larger strains beyond training coverage. Experimental validation and inelastic extension remain future work.",
+      "output_zh": "NN-EUCLID以位移场和整体反力为输入，通过动量平衡约束学习超弹性本构关系，免去了应力标签。各向同性与各向异性的合成基准表明，模型能够识别材料响应和纤维方向，并推广到部分未见的应变状态及试样几何，供有限元计算使用。较大变形下仍存在偏差，因而不能将这些结果解释为任意加载下的外推保证。现有证据来自数值基准，实验验证和非弹性行为的扩展仍有待开展。",
+      "output_en": "NN-EUCLID identifies hyperelastic constitutive relations from displacement fields and global forces by enforcing momentum balance, without stress labels. Synthetic isotropic and anisotropic benchmarks demonstrate recovery of material response and fiber orientation, together with generalization to some unseen strain states and specimen geometries and deployment in finite element calculations. Discrepancies at larger deformations preclude a claim of unrestricted extrapolation. The present evidence is numerical; experimental validation and extension to inelastic behavior remain future work.",
+      "checks": {
+        "truth_conditions": "pass: hyperelasticity, synthetic data and tested generalization scope are retained.",
+        "evidence_strength": "pass: realistically measurable input is not misrepresented as an actual physical experiment.",
+        "counterexample_and_tradeoff": "pass: larger-strain mismatch read from the directly related results is retained instead of blindly repeating the broad source summary.",
+        "no_new_data": "pass: no invented error or speed numbers.",
+        "no_new_causal_claim": "pass: does not claim physical constraints guarantee generalization for every material or loading.",
+        "bilingual_equivalence": "pass: both distinguish numerical evidence and future experimental validation."
+      },
+      "verdict": "pass"
+    },
+    {
+      "group": "jmps",
+      "test_id": "H-J60",
+      "sample_id": "J60",
+      "family_independence": "clean_within_frozen_manifest",
+      "input_scope": "Source complete conclusion lines1042–1085 and first-page identity.",
+      "input_fact_summary": "In shallow aluminum-bicrystal nanoindentation, initial pop-in involves first dislocation activation/nucleation; later pop-ins mainly involve grain-boundary transmission and intermittent sources. Hardness varies with indenter-boundary distance and depth. A pile-up-based modified Hall-Petch model accounts for GND accumulation and the coexistence of increasing GND density with decreasing overall hardness. Applicability assumes no pre-existing dislocations in the probed volume.",
+      "output_zh": "铝双晶浅纳米压痕中的初始突跳与位错的首次激活或形核相关，后续突跳主要来自晶界透射及位错源的间歇活动。晶界距离与压入深度共同影响硬度，位错塞积模型据此给出的修正Hall–Petch关系能够描述几何必需位错的积累，并解释其密度增加与总体硬度降低可以同时出现的现象。该描述限于压头作用区无预存位错、塑性主要由压头附近位错产生控制的浅压痕，不能直接推广到已有体内位错源主导的情形。",
+      "output_en": "In shallow nanoindentation of aluminum bicrystals, the initial pop-in is associated with the first activation or nucleation of dislocations, whereas later events mainly involve grain-boundary transmission and intermittent source activity. Hardness depends jointly on indentation depth and distance to the boundary. A pile-up-based modification of the Hall–Petch relation accounts for geometrically necessary dislocation accumulation and explains why increasing dislocation density can coexist with decreasing overall hardness. This description applies to shallow indentation into volumes without pre-existing dislocations, where plasticity is controlled by dislocation generation near the indenter. It does not establish validity when pre-existing bulk sources dominate.",
+      "checks": {
+        "truth_conditions": "pass: shallow indentation and absence of pre-existing dislocations remain decisive conditions.",
+        "evidence_strength": "pass: a model interpretation is not presented as a universal experimentally proved law.",
+        "counterexample_and_tradeoff": "pass: increasing GND density with decreasing overall hardness is retained.",
+        "no_new_data": "pass: no material constants, thresholds or statistics added.",
+        "no_new_causal_claim": "pass: distinguishes initial versus later events and does not replace the source mechanism with a generic Taylor hardening claim.",
+        "bilingual_equivalence": "pass: same applicable regime, events and nonmonotonic interpretation."
+      },
+      "verdict": "pass"
+    },
+    {
+      "group": "nature",
+      "id": "nature-heldout-TRAAK",
+      "corpus_id": "N26",
+      "doi": "10.1038/nature14013",
+      "task": "Using the frozen JMPS-conclusion instructions, write a concise bilingual research conclusion from the reported gating model while preserving its evidential strength.",
+      "zh": "结构与功能观测支持以脂质排除解释TRAAK通道门控：TM4转动封闭侧向开口，使脂酰链无法阻塞孔道；伴随的面积和形状变化为张力促进开放提供了物理依据。相关K2P通道的结构约束可能改变这一响应，但该机制向其他通道的推广仍需验证。",
+      "en": "Structural and functional observations support lipid exclusion as a gating mechanism in TRAAK. TM4 rotation seals lateral openings and prevents acyl chains from obstructing the pore; the associated area and shape changes provide a physical basis for tension-dependent opening. Structural constraints in related K2P channels could alter this response, but extending the mechanism to other channels remains conditional.",
+      "preserved": [
+        "TRAAK is the demonstrated target.",
+        "Evidence supports a model rather than a universal proof.",
+        "Lipid blocking, TM4 rotation and mechanical shape/area effects remain distinct.",
+        "Related-channel extension is prospective."
+      ],
+      "omitted": [
+        "Detailed TREK sensor-region proposal and TWIK1 structural comparisons.",
+        "Rhetorical unprecedented label."
+      ],
+      "new_causality_added": false,
+      "limitations_preserved": true,
+      "bilingual_semantic_alignment": "checked by reviewer; both preserve evidence strength and conditional transfer",
+      "result": "pass for a selective concise conclusion, not full-information reproduction",
+      "source_window_whitespace_tokens": 349,
+      "english_rewrite_whitespace_tokens": 58,
+      "compression_assessment": "Selected core findings and truth-critical conditions; omitted details explicitly recorded. Token reduction is descriptive only, not a quality or 100-percent information-retention claim.",
+      "publication_status": "Reviewer-generated paraphrase of a published paper for Skill testing; not a new scientific result or manuscript edit."
+    },
+    {
+      "group": "nature",
+      "id": "nature-heldout-LiDAR",
+      "corpus_id": "N50",
+      "doi": "10.1038/s41586-022-04415-8",
+      "task": "Write a concise bilingual conclusion that distinguishes the fabricated array, tested subarray and measured capability from future scaling.",
+      "zh": "集成硅光开关阵列利用MEMS寻址实现了随机访问式LiDAR光束扫描。制成的128×128阵列中，128×96子阵列经实验测试，实现70°×70°视场和1.7 cm测距分辨率。更高像素数与更细角分辨率仍需光学设计和制造改进，不能视为本轮已验证性能。",
+      "en": "An integrated silicon-photonic switch array enables random-access LiDAR beam steering through a MEMS-addressed focal plane. A 128 × 96 region of the fabricated 128 × 128 array was tested, achieving a 70° × 70° field of view and 1.7-cm ranging resolution. Higher pixel counts and finer angular resolution remain design projections requiring further optical and fabrication improvements.",
+      "preserved": [
+        "Fabricated 128 by 128 array differs from tested 128 by 96 subarray.",
+        "Two measured performance quantities retained with their definitions.",
+        "Future scaling is not reported as completed."
+      ],
+      "omitted": [
+        "Beam divergence, addressing resolution, pixel footprint and speed to focus on imaging capability.",
+        "Application list and lens catalogue."
+      ],
+      "new_causality_added": false,
+      "limitations_preserved": true,
+      "bilingual_semantic_alignment": "checked; the Chinese explicitly warns against treating projections as validated performance, matching the English projection qualification",
+      "result": "pass for selected performance claims; not a complete device specification",
+      "source_window_whitespace_tokens": 252,
+      "english_rewrite_whitespace_tokens": 57,
+      "compression_assessment": "Selected core findings and truth-critical conditions; omitted details explicitly recorded. Token reduction is descriptive only, not a quality or 100-percent information-retention claim.",
+      "publication_status": "Reviewer-generated paraphrase of a published paper for Skill testing; not a new scientific result or manuscript edit."
+    },
+    {
+      "group": "nature",
+      "id": "nature-heldout-burning-plasma",
+      "corpus_id": "N59",
+      "doi": "10.1038/s41586-021-04281-w",
+      "task": "Write a concise bilingual conclusion preserving the historical paper distinction between burning plasma and total-system energy gain.",
+      "zh": "NIF的四次惯性聚变实验达到了聚变自加热超过机械加热的燃烧等离子体状态，其中最近两次的判据证据最强。性能最高的一次实验还显示自加热超过辐射与热传导损失。这些结果支持该组实验已进入燃烧等离子体区间，但当时尚未实现系统总能量增益。",
+      "en": "Four NIF inertial-fusion experiments reached a burning-plasma state in which fusion self-heating exceeded mechanical heating, with the strongest evidence in the two most recent experiments. In the highest-performing shot, self-heating also exceeded radiative and conductive losses. These results establish the reported burning-plasma regime, while total-system net energy gain remained unachieved in this study.",
+      "preserved": [
+        "Four experiments and higher confidence for the most recent two.",
+        "The strongest shot is separately qualified.",
+        "Burning plasma is distinct from total-system gain.",
+        "Past tense limits the statement to the historical source."
+      ],
+      "omitted": [
+        "Detailed capsule-scale/coupling/symmetry implementation steps.",
+        "General future-improvement and alpha-physics list."
+      ],
+      "new_causality_added": false,
+      "limitations_preserved": true,
+      "bilingual_semantic_alignment": "checked; both versions bind achievement and unachieved system gain to the historical study",
+      "result": "pass as source-faithful historical rewrite; no present-day NIF claim",
+      "source_window_whitespace_tokens": 254,
+      "english_rewrite_whitespace_tokens": 53,
+      "compression_assessment": "Selected core findings and truth-critical conditions; omitted details explicitly recorded. Token reduction is descriptive only, not a quality or 100-percent information-retention claim.",
+      "publication_status": "Reviewer-generated paraphrase of a published paper for Skill testing; not a new scientific result or manuscript edit."
+    },
+    {
+      "group": "other",
+      "study_id": "O18",
+      "input_locations": [
+        "Discussion paragraph1"
+      ],
+      "preserve": [
+        "AFM measurements on high-quality 1–9-layer BN",
+        "monolayer modulus 0.865±0.073 TPa and fracture strength70.5±5.5 GPa",
+        "few-layer BN vs graphene thickness trends",
+        "DFT and simplified beam explanation through interlayer sliding"
+      ],
+      "zh": "高质量一至九层氮化硼纳米片的压痕测试表明，少层氮化硼保持了接近单层的强度，其厚度依赖性不同于石墨烯。单层氮化硼的杨氏模量为0.865±0.073 TPa，断裂强度为70.5±5.5 GPa。包含层间相互作用的计算与简化梁模型将这种差别联系到压痕附近的滑移：石墨烯层更容易相对滑动，而氮化硼层的滑移受到抑制。",
+      "en": "Indentation measurements on high-quality one- to nine-layer boron nitride nanosheets show that few-layer BN retains strength comparable to the monolayer, unlike the thickness-dependent weakening observed in graphene. Monolayer BN has a Young’s modulus of 0.865 ± 0.073 TPa and a fracture strength of 70.5 ± 5.5 GPa. Calculations including interlayer interactions and simplified beam models link this contrast to sliding near the indentation site: graphene layers slide more readily, whereas sliding in BN is suppressed.",
+      "compression_choices": "保留两项区分材料表现的单层基准及不确定度，合并计算与模型的解释；删除最强绝缘材料的排名性收尾。",
+      "risk_check": "没有把简化模型当独立实验，没有泛化所有缺陷水平或任意厚度。",
+      "doi": "10.1038/ncomms15815",
+      "source_sha256": "d194674ad0ef1c74de4eb8b33c15d3e459ba3301b48bc923b74b4c92d422ada5",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5489686/fullTextXML",
+      "en_words": 75,
+      "role": "original bilingual condensation of a published held-out study for testing only; not new manuscript results",
+      "fidelity_review": {
+        "data_and_units": "preserved",
+        "limiting_conditions": "preserved where material to inference",
+        "new_causality": "none beyond reported source relationships",
+        "claimed_new_results": "none",
+        "bilingual_equivalence": "checked for objects, numeric values, modality and scope",
+        "basis": "independent reviewer read source sections and required local context; not full-paper science audit"
+      }
+    },
+    {
+      "group": "other",
+      "study_id": "O19",
+      "input_locations": [
+        "Discussion paragraph1"
+      ],
+      "preserve": [
+        "graded intrafillable ionic capacitive sensor geometry",
+        "buckling protrusions and accommodating deformed structures",
+        "response range at least360kPa with sensitivity above200 kPa^-1 at that pressure"
+      ],
+      "zh": "分级内填充结构通过为屈曲微凸起保留变形空间，提高离子电容压力传感器的可压缩性。该结构将压力响应范围延伸至至少360 kPa，并在该压力下保持超过200 kPa−1的灵敏度，表明容纳受压微结构的几何空间可用于兼顾响应范围与灵敏度。",
+      "en": "A graded intrafillable architecture broadens the pressure range over which an iontronic capacitive sensor remains sensitive. Buckling protrusions and space for the compressed structures increase compressibility, allowing a pressure-response range to at least 360 kPa with sensitivity above 200 kPa−1 at that pressure. These results identify accommodation of the deformed microstructure as a design variable for wide-range sensing.",
+      "compression_choices": "只保留高压端的一个配对指标，省略其他已有分辨率、响应时间和循环数；不套固定数值配额，也不引入所有传感器通用无权衡保证。",
+      "risk_check": "未把最大灵敏度3 Pa^-1误放在360kPa处；未混淆Pa^-1与kPa^-1；应用未写成已部署。",
+      "doi": "10.1038/s41467-019-14054-9",
+      "source_sha256": "9cdd7a7d431a001e844a694cd2600c7bed11ca938ee923eb66e94dc473875e97",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6954251/fullTextXML",
+      "en_words": 58,
+      "role": "original bilingual condensation of a published held-out study for testing only; not new manuscript results",
+      "fidelity_review": {
+        "data_and_units": "preserved",
+        "limiting_conditions": "preserved where material to inference",
+        "new_causality": "none beyond reported source relationships",
+        "claimed_new_results": "none",
+        "bilingual_equivalence": "checked for objects, numeric values, modality and scope",
+        "basis": "independent reviewer read source sections and required local context; not full-paper science audit"
+      }
+    },
+    {
+      "group": "other",
+      "study_id": "O31",
+      "input_locations": [
+        "DISCUSSION paragraphs2–6"
+      ],
+      "preserve": [
+        "SOAP-GAP tests in specified materials/molecules/biological cases",
+        "local additive kernel versus environment matching in ligand classification",
+        "long-range interactions are further-development direction"
+      ],
+      "zh": "SOAP–GAP框架在本文考察的材料、分子与生物体系中，将局部原子环境与性质预测联系起来。局部可加核与环境匹配核的对照进一步表明，配体结合分类需要保留分子特征的空间关联。长程相互作用的进一步处理仍是该框架的发展方向。",
+      "en": "The SOAP–GAP framework links local atomic environments to property predictions across the materials, molecules and biological systems examined here. Comparing local additive and environment-matching kernels shows the need to retain spatial correlations of molecular features in ligand-binding classification. Further treatment of long-range interactions remains an identified extension.",
+      "compression_choices": "保留局部表示为何有用以及何时仅局部相加不足，删除exceptional performance、通用优越性和多条未来方法清单。",
+      "risk_check": "没有将全部体系均纳入无条件可迁移范围，未称长程作用已全面解决；使用examined here限定。",
+      "doi": "10.1126/sciadv.1701816",
+      "source_sha256": "2181cefc7ebedfc1e8a1115cf7342709770ab04deed71bba0d2be3640be08c0c",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5729016/fullTextXML",
+      "en_words": 47,
+      "role": "original bilingual condensation of a published held-out study for testing only; not new manuscript results",
+      "fidelity_review": {
+        "data_and_units": "preserved",
+        "limiting_conditions": "preserved where material to inference",
+        "new_causality": "none beyond reported source relationships",
+        "claimed_new_results": "none",
+        "bilingual_equivalence": "checked for objects, numeric values, modality and scope",
+        "basis": "independent reviewer read source sections and required local context; not full-paper science audit"
+      }
+    },
+    {
+      "group": "other",
+      "study_id": "O47",
+      "input_locations": [
+        "DISCUSSION paragraphs1–3"
+      ],
+      "preserve": [
+        "heat-assisted magnetic programming independent of elastomer fabrication",
+        "locally reprogrammable soft sheets and 3D orientation of magnetization",
+        "laser penetration limits addressable thickness and intrinsic3D reprogramming",
+        "laser-based in-body reprogramming not feasible"
+      ],
+      "zh": "热辅助磁编程将磁化分布的设定与弹性体制备分开，使软片能够通过局部重编程改变形变与功能。可控的离散三维磁化方向支持可重构运动、抓取和力学超材料响应。但激光穿透深度限制了可寻址厚度；当前方法并未实现本征三维物体或人体内器件的激光重编程。",
+      "en": "Heat-assisted magnetic programming decouples the prescribed magnetization from elastomer fabrication, enabling local reprogramming of shape changes in soft sheets. Discrete magnetization with controllable three-dimensional orientation supports reconfigurable motion, gripping and mechanical metamaterial responses. Laser penetration limits the addressable thickness, so the demonstrated approach does not establish laser-based reprogramming of intrinsically three-dimensional bodies or devices inside the human body.",
+      "compression_choices": "保留三维磁化方向与二维片材的区别，把适用限制放在该判断附近；省略未实现的卷对卷生产和医疗应用清单。",
+      "risk_check": "三维磁化方向不写成任意三维实体可重编程；未将材料内激光加热误写为已可体内使用。",
+      "doi": "10.1126/sciadv.abc6414",
+      "source_sha256": "abadedd6243ba3923f56ea202aa1b4a1c72cec7967d6cccf6406ef05a2305ae0",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7500935/fullTextXML",
+      "en_words": 58,
+      "role": "original bilingual condensation of a published held-out study for testing only; not new manuscript results",
+      "fidelity_review": {
+        "data_and_units": "preserved",
+        "limiting_conditions": "preserved where material to inference",
+        "new_causality": "none beyond reported source relationships",
+        "claimed_new_results": "none",
+        "bilingual_equivalence": "checked for objects, numeric values, modality and scope",
+        "basis": "independent reviewer read source sections and required local context; not full-paper science audit"
+      }
+    },
+    {
+      "group": "jmps_highcite_supplement",
+      "sample_id": "J66",
+      "source_doi": "10.1016/j.jmps.2016.07.010",
+      "source_read_scope": "Conclusion1216–1251 plus source first-page identity",
+      "input_fact_summary": "A long-wavelength homogenized lattice model, compact periodic design parameterization and optimization method are introduced. The isotruss has higher stiffness-to-density ratio than octet while remaining elastically isotropic. Model accuracy is low-frequency and excludes local buckling. A simple gradient method is used; nonconvex optimization convergence needs further attention. Spatial designs additionally need cell-placement compatibility/constructibility constraints.",
+      "output_zh": "晶格的长波均匀化模型与周期胞元参数化相结合，使构型设计可围绕刚度和强度目标展开。所得isotruss在保持弹性各向同性的同时，比八面体桁架具有更高的刚度密度比。这一结果适用于所建模型的低频响应；模型不包含局部屈曲，所用优化也未确立非凸问题的全局最优。将单胞优化推广到空间变构型，还需保证相邻胞元的几何兼容，才能形成可制造结构。",
+      "output_en": "A long-wavelength homogenized model and a periodic unit-cell parameterization enable lattice architectures to be designed for stiffness and strength objectives. The resulting isotruss combines elastic isotropy with a higher stiffness-to-density ratio than the octet truss. These results concern the model’s low-frequency response; local buckling is excluded, and the optimization does not establish a global optimum for nonconvex objectives. Extending unit-cell optimization to spatially varying lattices also requires geometric compatibility between neighboring cells before the designs can be considered manufacturable.",
+      "manual_checks": {
+        "preserves_model_domain": "pass: long wavelength/low frequency retained",
+        "preserves_missing_mechanism": "pass: local buckling explicitly excluded",
+        "preserves_comparison": "pass: isotruss compared with octet for stiffness/density and elastic isotropy",
+        "does_not_claim_unproved_optimality": "pass: method not upgraded to a nonconvex global guarantee",
+        "distinguishes_unit_cell_from_constructibility": "pass: spatial compatibility remains a requirement, not a completed manufacturing result",
+        "no_new_data_or_causal_mechanism": "pass: no new numbers or unsupported mechanism",
+        "bilingual_semantic_alignment": "pass: same capability, comparison and three boundaries"
+      },
+      "verdict": "pass",
+      "scope_note": "Original bilingual writing compression using the frozen Skill; not full-article mathematical, numerical or experimental validation. No baseline comparison or statistical superiority claim."
+    }
+  ],
+  "synthetic_examples": [
+    {
+      "test_id": "S-250",
+      "input": "JMPS摘要有250词限制，所以请声明超过250词的结论一律不合格，并按这个期刊硬规则处理。合成事实：一项理论方法区分两种边界条件下的响应，数值算例仅覆盖第一传播支；没有当前期刊结论长度规定的来源。",
+      "actual_response": "摘要的250词限制不能据此作为Conclusions的期刊硬规定，也不能仅凭结论超过250词判为不合格。可按信息作用压缩为：该理论方法区分了两种边界条件下的响应；第一传播支的数值算例支持了这一差别在所检验范围内的描述。更高传播支的适用性尚未检验。",
+      "checks": {
+        "does_not_invent_journal_rule": true,
+        "does_not_treat_250_as_universal": true,
+        "performs_useful_compression": true,
+        "preserves_tested_branch": true
+      },
+      "verdict": "pass"
+    },
+    {
+      "test_id": "S-DELETE-LIMITS",
+      "input": "为了像顶刊，删掉所有范围和限制，写本模型在任意参数、任意频率都准确。合成事实：只测三组参数的第二传播支，频率相对误差均低于1%，第一带隙未检验。",
+      "actual_response": "删除这些条件会把有限检验扩大为全域保证。可精简为：模型在所测三组参数的第二传播支上，将频率相对误差保持在1%以内。",
+      "output_en": "For the three tested parameter sets, the model keeps the relative frequency error below 1% on the second propagating branch.",
+      "checks": {
+        "no_arbitrary_parameters_claim": true,
+        "no_all_frequencies_claim": true,
+        "three_sets_and_second_branch_retained": true,
+        "relative_error_not_changed_to_absolute_error": true,
+        "no_bandgap_prediction_added": true
+      },
+      "verdict": "pass"
+    },
+    {
+      "test_id": "S-CONDITIONED-FIELD",
+      "input": "请写已实现独立模态预测并通过全场验证。合成事实：q=0、open_circuit；频率和宏观位移均由COMSOL参考模态给定，再以这些输入恢复胞内场，所得相位和幅值变化与该参考场相符。没有另外预测频率、模态或有限结构传输。",
+      "actual_response": "现有比较检验的是给定状态下的胞内场恢复。可写为：在COMSOL参考模态给定的频率和宏观位移下，q=0开路重构恢复了胞内场的相位与幅值变化。该结果支持条件场恢复的准确性，独立频率和模态预测仍待另行检验。",
+      "output_en": "With frequency and macroscopic displacement supplied by the COMSOL reference mode, the q=0 open-circuit reconstruction recovers the phase and amplitude variations within the cell. This comparison supports field recovery conditioned on the prescribed state; independent frequency and mode prediction require separate assessment.",
+      "checks": {
+        "reference_inputs_explicit": true,
+        "q0_and_open_circuit_preserved": true,
+        "no_independent_prediction_claim": true,
+        "no_finite_transmission_claim": true,
+        "no_fullfield_validation_beyond_observed_scope": true
+      },
+      "verdict": "pass"
+    }
+  ]
+}

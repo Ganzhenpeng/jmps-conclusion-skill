@@ -1,0 +1,66 @@
+{
+  "version": "0.1",
+  "date": "2026-10-30",
+  "status": "bounded_conclusion_style_release",
+  "primary_corpus": {
+    "jmps": 60,
+    "nature_main_journal": 60,
+    "other_journals": 60
+  },
+  "fulltexts_legally_readable": 205,
+  "section_passages_actually_read": 205,
+  "full_article_scientific_reviews_claimed": 0,
+  "induction_passages": 164,
+  "original_frozen_holdouts": 36,
+  "independent_source_spotchecks": 35,
+  "clean_holdout_count_within_review": 37,
+  "excluded_family_leakage": [
+    "J56",
+    "O20"
+  ],
+  "conservatively_excluded_uncertainty": [
+    "J55",
+    "J70"
+  ],
+  "review_comparators": [
+    "O25 induction review comparator",
+    "O15 holdout review comparator",
+    "N01 software review holdout"
+  ],
+  "actual_bilingual_generations": 11,
+  "synthetic_adversarial_generations": 3,
+  "generation_assessment": "Selected facts, evidence strength and necessary conditions preserved in the recorded qualitative reviews; not all holdouts received generation tasks.",
+  "frozen_rule_hashes": {
+    "SKILL.md": "5cfde2a361eae481a89cfa90e7993fda4e742e81b4215a256eb19af8125e8000",
+    "references/conclusion-craft.md": "b95fe48cf547515c5e035e90bbb3cb16a4421daedcd3dab7afcd359381c271dd",
+    "references/failure-patterns.md": "6f676bcf178014e3f62516ce714aad10f6b5b99d5e99a5b69fc8dad38872c8f7",
+    "references/project-adaptation.md": "4e4356d329b17ff788bb3bc806a11f367faf74b346714f138c28b918ead2229d"
+  },
+  "baseline_superiority_study": "not_run",
+  "user_acceptance": "not_claimed",
+  "history_scope": {
+    "explicit_files": 45,
+    "located_conclusion_or_revision_records": 33,
+    "all_disk_or_chat_versions_exhausted": false,
+    "ai_authorship_inferred_from_filename": false
+  },
+  "citation_scope": "OpenAlex for JMPS; Europe PMC for Nature/other; dated cumulative snapshots, not growth or normalized citation rankings",
+  "unresolved": [
+    "Source availability and purposeful selection bias",
+    "Complete research-family independence is not proven",
+    "PDF section length noise prevents a universal length prescription"
+  ],
+  "background_sessions_uncollected": 0,
+  "additional_jmps_high_citation_samples": 25,
+  "total_unique_papers": 205,
+  "additional_frozen_holdouts": 5,
+  "total_frozen_holdouts": 41,
+  "target_high_citation_samples": {
+    "jmps": 60,
+    "nature_main_journal": 60,
+    "other_journals": 60,
+    "total": 180
+  },
+  "additional_related_jmps_anchors_below100": 25,
+  "supplement_rule_scope": "25 additional high-citation passages were read and assessed after the four core files were frozen; observations did not trigger a silent rule revision."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "JMPS 结论"
+  short_description: "面向JMPS研究论文，提炼力学发现、压缩重复并保留证据范围"
+  default_prompt: "使用 $jmps-conclusion 基于当前稿件的已支持结果生成或精简结论，解释必要的信息取舍。"

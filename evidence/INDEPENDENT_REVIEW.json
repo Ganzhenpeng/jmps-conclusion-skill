@@ -1,0 +1,58 @@
+{
+  "scope": "Purposeful source-and-observation spotchecks, not full-article scientific reviews",
+  "initial_sample_ids": {
+    "jmps": [
+      "J01",
+      "J03",
+      "J06",
+      "J10",
+      "J13",
+      "J17",
+      "J18",
+      "J19",
+      "J21",
+      "J22"
+    ],
+    "nature": [
+      "N02",
+      "N08",
+      "N16",
+      "N20",
+      "N22",
+      "N25",
+      "N32",
+      "N42",
+      "N45",
+      "N51"
+    ],
+    "other": [
+      "O01",
+      "O07",
+      "O11",
+      "O24",
+      "O27",
+      "O30",
+      "O41",
+      "O46",
+      "O48",
+      "O60"
+    ]
+  },
+  "supplement_sample_ids": [
+    "J61",
+    "J65",
+    "J72",
+    "J83",
+    "J85"
+  ],
+  "total": 35,
+  "semantic_observations_supported_after_corrections": 35,
+  "issues_and_resolution": [
+    "Excluded repository policy PDF, conflicting DOI/preprint identity and same-title slides from article learning",
+    "Corrected missing source hashes, page locator and stale word count notes",
+    "Corrected conclusion boundaries contaminated by figures/TOC; J65 complete Implications reread",
+    "Recorded N32 source-title variation and N51 proposed-scenario causal strength",
+    "Excluded J56/O20 confirmed family leakage and J55/J70 uncertain independence from clean-holdout counts"
+  ],
+  "all_core_rule_hashes_unchanged": true
+}

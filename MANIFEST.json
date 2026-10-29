@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "date": "2026-10-30",
+  "skill": "jmps-conclusion",
+  "source_scope": "205 unique conclusion/closing-discussion studies; 180 with cumulative citations>=100",
+  "full_article_scientific_reviews_claimed": 0,
+  "files": {
+    ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+    ".gitignore": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672",
+    "evidence/BEHAVIOR_EXAMPLES.json": "de432268567f8ee5ef5b328e2189758914d79e4f3c2e01b3c3a705d1516b423f",
+    "evidence/EVALUATION.json": "ec68cbb6259b687875feecc344f185a15910470e2b0a658461d9a6ea24a4736a",
+    "evidence/HIGH_CITATION_180.json": "9b61ab1f72f8d5e183c7fe5f39d95620313aa20be071dcb7e32915f4da94bab7",
+    "evidence/INDEPENDENT_REVIEW.json": "2c079e71dbab6f78b7c347726a6174e46083c06590f86e7fb655df50489dd676",
+    "evidence/jmps.jsonl": "d3de4d0dadf6aac97b163aeaac62d3d5213a453a78c79d32b742ab0324a9781c",
+    "evidence/jmps_highcite_supplement.jsonl": "fe0049f95f8637d879dbdc6f908b984c987f09659eedad389b59222bb106ac13",
+    "evidence/JMPS_OBSERVATIONS.md": "a68e1760bc91f3ef4cfba2a02df9de0c70dffdc4a056b2046208930aa37bf22b",
+    "evidence/nature.jsonl": "2fe3550063dac4f0702dd1d8d2aef6f47c74c80fe66e143f8375cd8423e8b583",
+    "evidence/NATURE_OBSERVATIONS.md": "df2aebfb572eceea8c202d467af0fb1fbcc58c8cf5a17b835b2c666540c70cb2",
+    "evidence/other.jsonl": "6107ee56f2cb3964e775c748d4c0de7472900aded2cefcc7052e090b99f45f98",
+    "evidence/OTHER_OBSERVATIONS.md": "a676884a9d06d46f23828d2abe6f746dceebd843b43c6983d22f147c9c08828d",
+    "evidence/SKILL_CREATOR_CHECK.json": "2ce9e3930de60dfbf44059ba595f85fbd5045d6cec7bfa090f69659bd018a88d",
+    "evidence/STRUCTURE_CHECK.json": "2d07d71e08ee2aad317cfaee02b899850f8474c572235c52ae1d65bed0ccc681",
+    "jmps-conclusion/agents/openai.yaml": "f11ccdb02686afbfe3429ff082d2ca8cb06938e496837aa2c58d9d876b1f9835",
+    "jmps-conclusion/references/conclusion-craft.md": "b95fe48cf547515c5e035e90bbb3cb16a4421daedcd3dab7afcd359381c271dd",
+    "jmps-conclusion/references/evidence-scope.md": "1952ff234be3de19e45f15c0f7a84ea857f8923144ebaf571ea0365606f944dd",
+    "jmps-conclusion/references/failure-patterns.md": "6f676bcf178014e3f62516ce714aad10f6b5b99d5e99a5b69fc8dad38872c8f7",
+    "jmps-conclusion/references/project-adaptation.md": "4e4356d329b17ff788bb3bc806a11f367faf74b346714f138c28b918ead2229d",
+    "jmps-conclusion/SKILL.md": "5cfde2a361eae481a89cfa90e7993fda4e742e81b4215a256eb19af8125e8000",
+    "README.md": "bcdc84d8c767facfd43840e92f181b02268ab096b04c2f986fdbb835b1d4dca0",
+    "tests/validate_bundle.py": "7421403724658947023eeef7edbccc83acf6c97b85e89b6a5ad11d6eec009585"
+  }
+}

@@ -1,0 +1,1447 @@
+{
+  "operational_threshold": 100,
+  "not_field_normalized": true,
+  "different_databases_not_cross_ranked": true,
+  "records": [
+    {
+      "sample_id": "J01",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2020.104277",
+      "title": "Thermodynamics-based Artificial Neural Networks for constitutive modeling",
+      "citation_count": 429,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J02",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2011.01.003",
+      "title": "A finite strain model of stress, diffusion, plastic flow, and electrochemical reactions in a lithium-ion half-cell",
+      "citation_count": 406,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J03",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2008.10.012",
+      "title": "Laws of crack motion and phase-field models of fracture",
+      "citation_count": 406,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J04",
+      "group": "jmps",
+      "doi": "10.1016/s0022-5096(01)00034-5",
+      "title": "An analysis of the quasicontinuum method",
+      "citation_count": 405,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J05",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2008.12.004",
+      "title": "Elastic theory of unconstrained non-Euclidean plates",
+      "citation_count": 373,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J06",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2015.09.016",
+      "title": "Ordinary state-based peridynamics for plastic deformation according to von Mises yield criteria with isotropic hardening",
+      "citation_count": 368,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J07",
+      "group": "jmps",
+      "doi": "10.1016/s0022-5096(02)00002-9",
+      "title": "An atomistic-based finite deformation membrane for single layer crystalline films",
+      "citation_count": 354,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J08",
+      "group": "jmps",
+      "doi": "10.1016/s0022-5096(02)00037-6",
+      "title": "A phase-field theory of dislocation dynamics, strain hardening and hysteresis in ductile single crystals",
+      "citation_count": 300,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J09",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2012.01.002",
+      "title": "Mechanical properties of graphene papers",
+      "citation_count": 274,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J10",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2021.104703",
+      "title": "Polyconvex anisotropic hyperelasticity with neural networks",
+      "citation_count": 242,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J11",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2017.04.009",
+      "title": "Topology optimization of anisotropic broadband double-negative elastic metamaterials",
+      "citation_count": 238,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J12",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2004.01.004",
+      "title": "A continuum treatment of growth in biological tissue: the coupling of mass transport and mechanics",
+      "citation_count": 229,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J13",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2012.06.008",
+      "title": "Chiral effect in plane isotropic micropolar elasticity and its application to chiral lattices",
+      "citation_count": 213,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J14",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2019.03.004",
+      "title": "Exploring the 3D architectures of deep material network in data-driven multiscale mechanics",
+      "citation_count": 198,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J15",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2013.10.005",
+      "title": "Measurement and modeling of the mechanical and electrochemical response of amorphous Si thin film electrodes during cyclic lithiation",
+      "citation_count": 198,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J16",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2018.08.021",
+      "title": "Topological phase transition in mechanical honeycomb lattice",
+      "citation_count": 186,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J19",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2007.06.013",
+      "title": "Heterogeneous deformation and spall of an extruded tungsten alloy: plate impact experiments and crystal plasticity modeling",
+      "citation_count": 106,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J20",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2007.09.005",
+      "title": "A variational approach to coarse graining of equilibrium and non-equilibrium atomistic description at finite temperature",
+      "citation_count": 105,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J21",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2016.03.023",
+      "title": "Numerical implementation of non-local polycrystal plasticity using fast Fourier transforms",
+      "citation_count": 101,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J22",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2016.01.001",
+      "title": "Asymptotic expansion homogenization of discrete fine-scale models with rotational degrees of freedom for the simulation of quasi-brittle materials",
+      "citation_count": 101,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J23",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2020.104093",
+      "title": "A phase field model for elastic-gradient-plastic solids undergoing hydrogen embrittlement",
+      "citation_count": 183,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J24",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2014.01.003",
+      "title": "Metaconcrete: designed aggregates to enhance dynamic performance",
+      "citation_count": 178,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J25",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2019.01.002",
+      "title": "The mechanical response of cellular materials with spinodal topologies",
+      "citation_count": 176,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J26",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2011.08.004",
+      "title": "Interfacial separation between elastic solids with randomly rough surfaces: Comparison between theory and numerical techniques",
+      "citation_count": 175,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J27",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2012.06.014",
+      "title": "Phase-field modeling of crack propagation in piezoelectric and ferroelectric materials with different electromechanical crack conditions",
+      "citation_count": 172,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J50",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2016.12.004",
+      "title": "Seismic metasurfaces: Sub-wavelength resonators and Rayleigh wave interaction",
+      "citation_count": 260,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J51",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2020.104254",
+      "title": "A phase field formulation for dissolution-driven stress corrosion cracking",
+      "citation_count": 236,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J52",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2010.01.009",
+      "title": "A theory for species migration in a finitely strained solid with application to polymer network swelling",
+      "citation_count": 236,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J53",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2017.10.015",
+      "title": "High-accuracy phase-field models for brittle fracture based on a new family of degradation functions",
+      "citation_count": 216,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J54",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2007.02.009",
+      "title": "Concepts for structurally robust materials that combine low thermal expansion with high stiffness",
+      "citation_count": 210,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J55",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2023.105363",
+      "title": "Neural networks meet hyperelasticity: A guide to enforcing physics",
+      "citation_count": 184,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J56",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2006.01.009",
+      "title": "Size effects and idealized dislocation microstructure at small scales: Predictions of a Phenomenological model of Mesoscopic Field Dislocation Mechanics: Part I",
+      "citation_count": 181,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J57",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2022.105076",
+      "title": "NN-EUCLID: Deep-learning hyperelasticity without stress data",
+      "citation_count": 174,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J58",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2011.07.008",
+      "title": "Overall dynamic constitutive relations of layered elastic composites",
+      "citation_count": 112,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J59",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2014.07.014",
+      "title": "Transformation elastodynamics and cloaking for flexural waves",
+      "citation_count": 107,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N01",
+      "group": "nature",
+      "doi": "10.1038/s41586-020-2649-2",
+      "title": "Array programming with NumPy.",
+      "citation_count": 8309,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N02",
+      "group": "nature",
+      "doi": "10.1038/nature09198",
+      "title": "Measuring mechanical tension across vinculin reveals regulation of focal adhesion dynamics.",
+      "citation_count": 1251,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N03",
+      "group": "nature",
+      "doi": "10.1038/nature11591",
+      "title": "Spontaneous motion in hierarchically assembled active matter.",
+      "citation_count": 823,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N04",
+      "group": "nature",
+      "doi": "10.1038/nature17974",
+      "title": "Single-molecule strong coupling at room temperature in plasmonic nanocavities.",
+      "citation_count": 816,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N05",
+      "group": "nature",
+      "doi": "10.1038/nature09379",
+      "title": "Graphene as a subnanometre trans-electrode membrane.",
+      "citation_count": 715,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N06",
+      "group": "nature",
+      "doi": "10.1038/s41586-018-0479-2",
+      "title": "A fluid-to-solid jamming transition underlies vertebrate body axis elongation.",
+      "citation_count": 600,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N07",
+      "group": "nature",
+      "doi": "10.1038/nature26147",
+      "title": "Moving magnetoencephalography towards real-world applications with a wearable system.",
+      "citation_count": 570,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N08",
+      "group": "nature",
+      "doi": "10.1038/nature21718",
+      "title": "Topological defects in epithelia govern cell death and extrusion.",
+      "citation_count": 522,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N09",
+      "group": "nature",
+      "doi": "10.1038/nature09026",
+      "title": "A proximity-based programmable DNA nanoscale assembly line.",
+      "citation_count": 517,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N10",
+      "group": "nature",
+      "doi": "10.1038/s41586-018-0344-3",
+      "title": "The outer membrane is an essential load-bearing element in Gram-negative bacteria.",
+      "citation_count": 514,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N11",
+      "group": "nature",
+      "doi": "10.1038/nature22987",
+      "title": "Making waves in a photoactive polymer film.",
+      "citation_count": 482,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N12",
+      "group": "nature",
+      "doi": "10.1038/nature25742",
+      "title": "Tissue stiffening coordinates morphogenesis by triggering collective cell migration in vivo.",
+      "citation_count": 478,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N13",
+      "group": "nature",
+      "doi": "10.1038/s41586-019-1484-9",
+      "title": "Niche stiffness underlies the ageing of central nervous system progenitor cells.",
+      "citation_count": 473,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N14",
+      "group": "nature",
+      "doi": "10.1038/nature18610",
+      "title": "Ki-67 acts as a biological surfactant to disperse mitotic chromosomes.",
+      "citation_count": 473,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N15",
+      "group": "nature",
+      "doi": "10.1038/nature20118",
+      "title": "A brain-spine interface alleviating gait deficits after spinal cord injury in primates.",
+      "citation_count": 428,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N16",
+      "group": "nature",
+      "doi": "10.1038/nature14288",
+      "title": "Reducing the energy cost of human walking using an unpowered exoskeleton.",
+      "citation_count": 402,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N17",
+      "group": "nature",
+      "doi": "10.1038/s41586-023-06735-9",
+      "title": "Scaling deep learning for materials discovery.",
+      "citation_count": 393,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N18",
+      "group": "nature",
+      "doi": "10.1038/nature10489",
+      "title": "Active tactile exploration using a brain-machine-brain interface.",
+      "citation_count": 372,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N19",
+      "group": "nature",
+      "doi": "10.1038/s41586-020-2236-6",
+      "title": "The architecture of the Gram-positive bacterial cell wall.",
+      "citation_count": 355,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N20",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-05394-6",
+      "title": "Extracellular fluid viscosity enhances cell migration and cancer dissemination.",
+      "citation_count": 338,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N21",
+      "group": "nature",
+      "doi": "10.1038/s41586-023-06734-w",
+      "title": "An autonomous laboratory for the accelerated synthesis of novel materials.",
+      "citation_count": 334,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N22",
+      "group": "nature",
+      "doi": "10.1038/s41586-021-04268-7",
+      "title": "Toroidal topology of population activity in grid cells.",
+      "citation_count": 334,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N23",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-05498-z",
+      "title": "A wearable cardiac ultrasound imager.",
+      "citation_count": 318,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N24",
+      "group": "nature",
+      "doi": "10.1038/nature12663",
+      "title": "Molecular understanding of sulphuric acid-amine particle nucleation in the atmosphere.",
+      "citation_count": 308,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N25",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-04443-4",
+      "title": "Reconstructed covalent organic frameworks.",
+      "citation_count": 300,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N26",
+      "group": "nature",
+      "doi": "10.1038/nature14013",
+      "title": "Physical mechanism for gating and mechanosensitivity of the human TRAAK K+ channel.",
+      "citation_count": 300,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N27",
+      "group": "nature",
+      "doi": "10.1038/nature10430",
+      "title": "Mechanical strain in actin networks regulates FilGAP and integrin binding to filamin A.",
+      "citation_count": 294,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N28",
+      "group": "nature",
+      "doi": "10.1038/s41586-020-2131-1",
+      "title": "Discovery and characterization of an acridine radical photoreductant.",
+      "citation_count": 293,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N29",
+      "group": "nature",
+      "doi": "10.1038/nature12072",
+      "title": "Optical magnetic imaging of living cells.",
+      "citation_count": 262,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N30",
+      "group": "nature",
+      "doi": "10.1038/nature21419",
+      "title": "Functional materials discovery using energy-structure-function maps.",
+      "citation_count": 247,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N31",
+      "group": "nature",
+      "doi": "10.1038/s41586-023-06927-3",
+      "title": "Logical quantum processor based on reconfigurable atom arrays.",
+      "citation_count": 229,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N32",
+      "group": "nature",
+      "doi": "10.1038/nature16522",
+      "title": "Possible light-induced superconductivity in K3C60 at high temperature.",
+      "citation_count": 222,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N33",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-04725-x",
+      "title": "Quantum computational advantage with a programmable photonic processor.",
+      "citation_count": 219,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N34",
+      "group": "nature",
+      "doi": "10.1038/nature17953",
+      "title": "Ion-induced nucleation of pure biogenic particles.",
+      "citation_count": 215,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N35",
+      "group": "nature",
+      "doi": "10.1038/s41586-020-2861-0",
+      "title": "Logic-in-memory based on an atomically thin semiconductor.",
+      "citation_count": 200,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N36",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-05592-2",
+      "title": "Vertical organic electrochemical transistors for complementary circuits.",
+      "citation_count": 192,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N37",
+      "group": "nature",
+      "doi": "10.1038/s41586-021-04223-6",
+      "title": "Deep physical neural networks trained with backpropagation.",
+      "citation_count": 188,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N38",
+      "group": "nature",
+      "doi": "10.1038/nature17633",
+      "title": "Self-assembly of coherently dynamic, auxetic, two-dimensional protein crystals.",
+      "citation_count": 185,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N39",
+      "group": "nature",
+      "doi": "10.1038/s41586-020-2495-2",
+      "title": "Cleavable comonomers enable degradable, recyclable thermoset plastics.",
+      "citation_count": 184,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N40",
+      "group": "nature",
+      "doi": "10.1038/s41586-023-06096-3",
+      "title": "Evidence for the utility of quantum computing before fault tolerance.",
+      "citation_count": 178,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N41",
+      "group": "nature",
+      "doi": "10.1038/nature12649",
+      "title": "Single-molecule fluorescence probes dynamics of barrier crossing.",
+      "citation_count": 178,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N42",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-05434-1",
+      "title": "Suppressing quantum errors by scaling a surface code logical qubit.",
+      "citation_count": 177,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N43",
+      "group": "nature",
+      "doi": "10.1038/nature19816",
+      "title": "Tracking the ultrafast motion of a single molecule by femtosecond orbital imaging.",
+      "citation_count": 175,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N44",
+      "group": "nature",
+      "doi": "10.1038/s41586-021-04002-3",
+      "title": "Fractional Chern insulators in magic-angle twisted bilayer graphene.",
+      "citation_count": 164,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N45",
+      "group": "nature",
+      "doi": "10.1038/s41586-018-0490-7",
+      "title": "Tunable long-distance spin transport in a crystalline antiferromagnetic iron oxide.",
+      "citation_count": 163,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N46",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-04910-y",
+      "title": "A DNA origami rotary ratchet motor.",
+      "citation_count": 156,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N47",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-04592-6",
+      "title": "A quantum processor based on coherent transport of entangled atom arrays.",
+      "citation_count": 156,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N48",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-04784-0",
+      "title": "Hypocrystalline ceramic aerogels for thermal insulation at extreme conditions.",
+      "citation_count": 154,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N49",
+      "group": "nature",
+      "doi": "10.1038/s41586-020-1980-y",
+      "title": "Hidden diversity of vacancy networks in Prussian blue analogues.",
+      "citation_count": 154,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N50",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-04415-8",
+      "title": "A large-scale microelectromechanical-systems-based silicon photonics LiDAR.",
+      "citation_count": 148,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N51",
+      "group": "nature",
+      "doi": "10.1038/nature17148",
+      "title": "Interface dynamics and crystal phase switching in GaAs nanowires.",
+      "citation_count": 146,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N52",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-05132-y",
+      "title": "Delayed fluorescence from inverted singlet and triplet excited states.",
+      "citation_count": 145,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N53",
+      "group": "nature",
+      "doi": "10.1038/s41586-023-05973-1",
+      "title": "Hybrid 2D-CMOS microchips for memristive applications.",
+      "citation_count": 141,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N54",
+      "group": "nature",
+      "doi": "10.1038/s41586-023-06222-1",
+      "title": "Reversible spin-optical interface in luminescent organic radicals.",
+      "citation_count": 136,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N55",
+      "group": "nature",
+      "doi": "10.1038/s41586-022-05366-w",
+      "title": "Bending forces and nucleotide state jointly regulate F-actin structure.",
+      "citation_count": 113,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N56",
+      "group": "nature",
+      "doi": "10.1038/s41586-020-3021-2",
+      "title": "A hydrophobic ratchet entrenches molecular complexes.",
+      "citation_count": 125,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N57",
+      "group": "nature",
+      "doi": "10.1038/s41586-021-04273-w",
+      "title": "Quantum logic with spin qubits crossing the surface code threshold.",
+      "citation_count": 116,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N58",
+      "group": "nature",
+      "doi": "10.1038/s41586-021-03867-8",
+      "title": "Extremely anisotropic van der Waals thermal conductors.",
+      "citation_count": 114,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N59",
+      "group": "nature",
+      "doi": "10.1038/s41586-021-04281-w",
+      "title": "Burning plasma achieved in inertial fusion.",
+      "citation_count": 109,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "N60",
+      "group": "nature",
+      "doi": "10.1038/s41586-021-03900-w",
+      "title": "Global potential for harvesting drinking water from air using solar energy.",
+      "citation_count": 108,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O01",
+      "group": "other",
+      "doi": "10.1038/ncomms5475",
+      "title": "High-mobility transport anisotropy and linear dichroism in few-layer black phosphorus.",
+      "citation_count": 1382,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O02",
+      "group": "other",
+      "doi": "10.1038/ncomms13890",
+      "title": "Quantum-chemical insights from deep tensor neural networks.",
+      "citation_count": 629,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O03",
+      "group": "other",
+      "doi": "10.1038/ncomms7293",
+      "title": "Exploring atomic defects in molybdenum disulphide monolayers.",
+      "citation_count": 590,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O04",
+      "group": "other",
+      "doi": "10.1038/ncomms11755",
+      "title": "Electron-phonon coupling in hybrid lead halide perovskites.",
+      "citation_count": 528,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O05",
+      "group": "other",
+      "doi": "10.1038/ncomms1772",
+      "title": "Ultrathin and lightweight organic solar cells with high flexibility.",
+      "citation_count": 515,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O06",
+      "group": "other",
+      "doi": "10.1038/s41467-019-09351-2",
+      "title": "Plant-inspired adhesive and tough hydrogel based on Ag-Lignin nanoparticles-triggered dynamic redox catechol chemistry.",
+      "citation_count": 507,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O07",
+      "group": "other",
+      "doi": "10.1038/s41467-019-09003-5",
+      "title": "Pure PEDOT:PSS hydrogels.",
+      "citation_count": 466,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O08",
+      "group": "other",
+      "doi": "10.1038/ncomms1583",
+      "title": "Graphene chiral liquid crystals and macroscopic assembled fibres.",
+      "citation_count": 388,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O09",
+      "group": "other",
+      "doi": "10.1038/s41467-019-10827-4",
+      "title": "Approaching coupled cluster accuracy with a general-purpose neural network potential through transfer learning.",
+      "citation_count": 382,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O10",
+      "group": "other",
+      "doi": "10.1038/ncomms7962",
+      "title": "Highly compressible 3D periodic graphene aerogel microlattices.",
+      "citation_count": 352,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O11",
+      "group": "other",
+      "doi": "10.1038/ncomms8461",
+      "title": "Printable elastic conductors with a high conductivity for electronic textile applications.",
+      "citation_count": 334,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O12",
+      "group": "other",
+      "doi": "10.1038/ncomms8373",
+      "title": "A Weyl Fermion semimetal with surface Fermi arcs in the transition metal monopnictide TaAs class.",
+      "citation_count": 332,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O13",
+      "group": "other",
+      "doi": "10.1038/ncomms5176",
+      "title": "Correlated defect nanoregions in a metal-organic framework.",
+      "citation_count": 313,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O14",
+      "group": "other",
+      "doi": "10.1038/s41467-018-05222-4",
+      "title": "Mechanically tunable conductive interpenetrating network hydrogels that mimic the elastic moduli of biological tissue.",
+      "citation_count": 312,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O15",
+      "group": "other",
+      "doi": "10.1038/ncomms11495",
+      "title": "Quantum mechanical effects in plasmonic structures with subnanometre gaps.",
+      "citation_count": 307,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O16",
+      "group": "other",
+      "doi": "10.1038/s41467-020-16266-w",
+      "title": "Universal mechanical exfoliation of large-area 2D crystals.",
+      "citation_count": 301,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O17",
+      "group": "other",
+      "doi": "10.1038/ncomms3226",
+      "title": "Nano-structured smart hydrogels with rapid response and high elasticity.",
+      "citation_count": 300,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O18",
+      "group": "other",
+      "doi": "10.1038/ncomms15815",
+      "title": "Mechanical properties of atomically thin boron nitride and the role of interlayer interactions.",
+      "citation_count": 298,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O19",
+      "group": "other",
+      "doi": "10.1038/s41467-019-14054-9",
+      "title": "Graded intrafillable architecture-based iontronic pressure sensor with ultra-broad-range high sensitivity.",
+      "citation_count": 297,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O20",
+      "group": "other",
+      "doi": "10.1038/ncomms9661",
+      "title": "Holographic acoustic elements for manipulation of levitated objects.",
+      "citation_count": 293,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O21",
+      "group": "other",
+      "doi": "10.1038/ncomms12263",
+      "title": "Soft micromachines with programmable motility and morphology.",
+      "citation_count": 284,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O22",
+      "group": "other",
+      "doi": "10.1038/s41467-017-00685-3",
+      "title": "Soft material for soft actuators.",
+      "citation_count": 272,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O23",
+      "group": "other",
+      "doi": "10.1038/ncomms11085",
+      "title": "Rotational manipulation of single cells and organisms using acoustic waves.",
+      "citation_count": 251,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O24",
+      "group": "other",
+      "doi": "10.1038/ncomms7649",
+      "title": "On the tear resistance of skin.",
+      "citation_count": 229,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O25",
+      "group": "other",
+      "doi": "10.1038/s41467-018-05759-4",
+      "title": "Nonreciprocal responses from non-centrosymmetric quantum materials.",
+      "citation_count": 208,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O26",
+      "group": "other",
+      "doi": "10.1126/sciadv.1602076",
+      "title": "A highly stretchable, transparent, and conductive polymer.",
+      "citation_count": 601,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O27",
+      "group": "other",
+      "doi": "10.1126/sciadv.1603015",
+      "title": "Machine learning of accurate energy-conserving molecular force fields.",
+      "citation_count": 541,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O28",
+      "group": "other",
+      "doi": "10.1126/sciadv.1500661",
+      "title": "Fingertip skin-inspired microstructured ferroelectric skins discriminate static/dynamic pressure and temperature stimuli.",
+      "citation_count": 373,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O29",
+      "group": "other",
+      "doi": "10.1126/sciadv.1501856",
+      "title": "Ultraflexible organic photonic skin.",
+      "citation_count": 365,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O30",
+      "group": "other",
+      "doi": "10.1126/sciadv.aat0491",
+      "title": "Elastic properties of 2D Ti<sub>3</sub>C<sub>2</sub>T <sub><i>x</i></sub> MXene monolayers and bilayers.",
+      "citation_count": 355,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O31",
+      "group": "other",
+      "doi": "10.1126/sciadv.1701816",
+      "title": "Machine learning unifies the modeling of materials and molecules.",
+      "citation_count": 325,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O32",
+      "group": "other",
+      "doi": "10.1126/sciadv.aau8528",
+      "title": "Anti-fatigue-fracture hydrogels.",
+      "citation_count": 309,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O33",
+      "group": "other",
+      "doi": "10.1126/sciadv.aat0346",
+      "title": "Higher-order topological insulators.",
+      "citation_count": 300,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O34",
+      "group": "other",
+      "doi": "10.1126/sciadv.1701696",
+      "title": "Moiré excitons: From programmable quantum emitter arrays to spin-orbit-coupled artificial lattices.",
+      "citation_count": 277,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O35",
+      "group": "other",
+      "doi": "10.1126/sciadv.aaw5685",
+      "title": "Intrinsic magnetic topological insulators in van der Waals layered MnBi&lt;sub&gt;2&lt;/sub&gt;Te&lt;sub&gt;4&lt;/sub&gt;-family materials.",
+      "citation_count": 264,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O36",
+      "group": "other",
+      "doi": "10.1126/sciadv.aas8925",
+      "title": "Ultralight and fire-resistant ceramic nanofibrous aerogels with temperature-invariant superelasticity.",
+      "citation_count": 239,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O37",
+      "group": "other",
+      "doi": "10.1126/sciadv.1700053",
+      "title": "Instant tough bonding of hydrogels for soft machines and electronics.",
+      "citation_count": 223,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O38",
+      "group": "other",
+      "doi": "10.1126/sciadv.1501496",
+      "title": "Designing durable icephobic surfaces.",
+      "citation_count": 205,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O39",
+      "group": "other",
+      "doi": "10.1126/sciadv.1500396",
+      "title": "Catenary optics for achromatic generation of perfect optical angular momentum.",
+      "citation_count": 202,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O40",
+      "group": "other",
+      "doi": "10.1126/sciadv.1601185",
+      "title": "Epidermal mechano-acoustic sensing electronics for cardiovascular diagnostics and human-machine interfaces.",
+      "citation_count": 191,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O41",
+      "group": "other",
+      "doi": "10.1126/sciadv.1501297",
+      "title": "Shape memory polymer network with thermally distinct elasticity and plasticity.",
+      "citation_count": 182,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O42",
+      "group": "other",
+      "doi": "10.1126/sciadv.aav5790",
+      "title": "Grayscale digital light processing 3D printing for highly functionally graded materials.",
+      "citation_count": 177,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O43",
+      "group": "other",
+      "doi": "10.1126/sciadv.aaq0508",
+      "title": "Rehealable, fully recyclable, and malleable electronic skin enabled by dynamic covalent thermoset nanocomposite.",
+      "citation_count": 170,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O44",
+      "group": "other",
+      "doi": "10.1126/sciadv.aar3724",
+      "title": "Anisotropic, lightweight, strong, and super thermally insulating nanowood with naturally aligned nanocellulose.",
+      "citation_count": 169,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O45",
+      "group": "other",
+      "doi": "10.1126/sciadv.aao3530",
+      "title": "Topological liquid diode.",
+      "citation_count": 159,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O46",
+      "group": "other",
+      "doi": "10.1126/sciadv.1501524",
+      "title": "Topological nature of nonlinear optical effects in solids.",
+      "citation_count": 154,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O47",
+      "group": "other",
+      "doi": "10.1126/sciadv.abc6414",
+      "title": "Reprogrammable shape morphing of magnetic soft machines.",
+      "citation_count": 151,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O48",
+      "group": "other",
+      "doi": "10.1126/sciadv.aax3084",
+      "title": "3D steerable, acoustically powered microswimmers for single-particle manipulation.",
+      "citation_count": 151,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O49",
+      "group": "other",
+      "doi": "10.1126/sciadv.aaw2844",
+      "title": "High-resolution, reconfigurable printing of liquid metals with three-dimensional structures.",
+      "citation_count": 150,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O50",
+      "group": "other",
+      "doi": "10.1126/sciadv.aaz6912",
+      "title": "Leveraging elastic instabilities for amplified performance: Spine-inspired high-speed and high-force soft robots.",
+      "citation_count": 147,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O51",
+      "group": "other",
+      "doi": "10.1126/sciadv.aax0648",
+      "title": "Ionic liquid-based click-ionogels.",
+      "citation_count": 147,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O52",
+      "group": "other",
+      "doi": "10.1126/sciadv.1600327",
+      "title": "Knitting and weaving artificial muscles.",
+      "citation_count": 143,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O53",
+      "group": "other",
+      "doi": "10.1126/sciadv.abc0467",
+      "title": "Acoustofluidic centrifuge for nanoparticle enrichment and separation.",
+      "citation_count": 142,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O54",
+      "group": "other",
+      "doi": "10.1126/sciadv.aap9957",
+      "title": "Adaptive metalenses with simultaneous electrical control of focal length, astigmatism, and shift.",
+      "citation_count": 135,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O55",
+      "group": "other",
+      "doi": "10.1126/sciadv.aaz1114",
+      "title": "Lightweight, tough, and sustainable cellulose nanofiber-derived bulk structural materials with low thermal expansion coefficient.",
+      "citation_count": 127,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O56",
+      "group": "other",
+      "doi": "10.1126/sciadv.aau6062",
+      "title": "Wave number-spiral acoustic tweezers for dynamic and reconfigurable manipulation of particles and cells.",
+      "citation_count": 125,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O57",
+      "group": "other",
+      "doi": "10.1073/pnas.1713450114",
+      "title": "Fluid-driven origami-inspired artificial muscles.",
+      "citation_count": 198,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O58",
+      "group": "other",
+      "doi": "10.1073/pnas.1813047115",
+      "title": "Holographic acoustic tweezers.",
+      "citation_count": 196,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O59",
+      "group": "other",
+      "doi": "10.1073/pnas.1920099117",
+      "title": "Acoustically powered surface-slipping mobile microrobots.",
+      "citation_count": 153,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "O60",
+      "group": "other",
+      "doi": "10.1073/pnas.2010580117",
+      "title": "Observation of non-Hermitian topology and its bulk-edge correspondence in an active mechanical metamaterial.",
+      "citation_count": 140,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J61",
+      "group": "jmps",
+      "doi": "10.1016/0022-5096(94)00060-i",
+      "title": "Origin of crack tip instabilities",
+      "citation_count": 273,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J62",
+      "group": "jmps",
+      "doi": "10.1016/0022-5096(79)90027-9",
+      "title": "Bifurcation of inflated circular cylinders of elastic material under axial loading—II. Exact theory for thick-walled tubes",
+      "citation_count": 232,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J63",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2005.03.002",
+      "title": "Remodeling of biological tissue: Mechanically induced reorientation of a transversely isotropic chain network",
+      "citation_count": 195,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J64",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2016.09.009",
+      "title": "The fracture toughness of octet-truss lattices",
+      "citation_count": 184,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J65",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2013.08.004",
+      "title": "Study of the cofactor conditions: Conditions of supercompatibility between phases",
+      "citation_count": 165,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J66",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2016.07.010",
+      "title": "Optimal lattice-structured materials",
+      "citation_count": 155,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J67",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2017.11.013",
+      "title": "Progressive damage and rupture in polymers",
+      "citation_count": 145,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J68",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2022.105169",
+      "title": "A thermo-mechanical phase-field fracture model: Application to hot cracking simulations in additive manufacturing",
+      "citation_count": 142,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J69",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2015.06.015",
+      "title": "Biomimetic staggered composites with highly enhanced energy dissipation: Modeling, 3D printing, and testing",
+      "citation_count": 140,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J70",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2022.104951",
+      "title": "A generalised, multi-phase-field theory for dissolution-driven stress corrosion cracking and hydrogen embrittlement",
+      "citation_count": 139,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J71",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2004.06.002",
+      "title": "Fluctuations and the effective moduli of an isotropic, random aggregate of identical, frictionless spheres",
+      "citation_count": 138,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J72",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2014.10.010",
+      "title": "On the mechanical modeling of the extreme softening/stiffening response of axially loaded tensegrity prisms",
+      "citation_count": 137,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J73",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2012.08.011",
+      "title": "Complete characterization of the macroscopic deformations of periodic unimode metamaterials of rigid bars and pivots",
+      "citation_count": 136,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J74",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2013.01.003",
+      "title": "Matrix representations for 3D strain-gradient elasticity",
+      "citation_count": 133,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J75",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2009.05.011",
+      "title": "Pair vs many-body potentials: Influence on elastic and plastic behavior in nanoindentation of fcc metals",
+      "citation_count": 128,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J76",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2005.05.004",
+      "title": "Bounds and self-consistent estimates for elastic constants of random polycrystals with hexagonal, trigonal, and tetragonal symmetries",
+      "citation_count": 125,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J77",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2012.02.006",
+      "title": "A criterion for the onset of void coalescence under combined tension and shear",
+      "citation_count": 123,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J78",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2019.103796",
+      "title": "An asymmetric elastic metamaterial model for elastic wave cloaking",
+      "citation_count": 122,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J79",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2013.09.005",
+      "title": "Deformation and damage due to drying-induced salt crystallization in porous limestone",
+      "citation_count": 116,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J80",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2016.09.005",
+      "title": "A dislocation density-based continuum model of the anisotropic shock response of single crystal α-cyclotrimethylene trinitramine",
+      "citation_count": 115,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J81",
+      "group": "jmps",
+      "doi": "10.1016/s0022-5096(01)00137-5",
+      "title": "Can crack front waves explain the roughness of cracks?",
+      "citation_count": 115,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J82",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2012.01.008",
+      "title": "Elasticity of polydomain liquid crystal elastomers",
+      "citation_count": 114,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J83",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2018.10.008",
+      "title": "Mechanics of hard-magnetic soft materials",
+      "citation_count": 567,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J84",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2017.09.006",
+      "title": "Crack nucleation in variational phase-field models of brittle fracture",
+      "citation_count": 660,
+      "snapshot_date": "2026-10-30"
+    },
+    {
+      "sample_id": "J85",
+      "group": "jmps",
+      "doi": "10.1016/j.jmps.2017.07.003",
+      "title": "Elastic and failure response of imperfect three-dimensional metallic lattices: the role of geometric defects induced by Selective Laser Melting",
+      "citation_count": 516,
+      "snapshot_date": "2026-10-30"
+    }
+  ]
+}

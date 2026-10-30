@@ -43,6 +43,8 @@ for name in ['jmps','nature','other']:
 all_dois=[r['doi'].lower() for rows in corpora.values() for r in rows]
 supplement=ROOT/'evidence/jmps_highcite_supplement.jsonl'
 supplement_count=0
+extra=[]
+check(supplement.is_file(),'missing JMPS high-citation supplement')
 if supplement.exists():
     extra=[json.loads(line) for line in supplement.read_text(encoding='utf8').splitlines() if line.strip()]
     supplement_count=len(extra)
@@ -52,10 +54,24 @@ if supplement.exists():
     check(sum(r['citation_count']>=100 for r in corpora['jmps'])+sum(r['citation_count']>=100 for r in extra)==60,'JMPS high-citation subset must contain60 records')
     all_dois += [r['doi'].lower() for r in extra]
 check(len(set(all_dois))==len(all_dois),'duplicate DOI across strata')
+language_counts={}
+for group in ['jmps','nature','other']:
+    p=ROOT/'evidence'/f'sentence_language_{group}.jsonl'
+    check(p.is_file(),f'missing sentence language evidence: {group}')
+    if not p.is_file():continue
+    rows=[json.loads(line) for line in p.read_text(encoding='utf8').splitlines() if line.strip()]
+    language_counts[group]=len(rows)
+    allowed={r['sample_id']:r['doi'].lower() for r in corpora[group] if r['split']=='learn'}
+    if group=='jmps':allowed.update({r['sample_id']:r['doi'].lower() for r in extra if r['split']=='learn'})
+    ids=[r.get('sample_id',r.get('id')) for r in rows]
+    check(len(ids)==len(set(ids))==len(allowed),f'{group} language ID coverage and uniqueness')
+    check(all(i in allowed and r['doi'].lower()==allowed[i] for i,r in zip(ids,rows)),f'{group} language DOI/learning split')
+    if group=='nature':check(next(r for r in rows if r['id']=='N19')['aggregation_role'].startswith('context_only'),'N19 must remain context only')
+    if group=='other':check(next(r for r in rows if r['id']=='O25')['aggregation_role']=='review_comparator_only','O25 must remain review comparator')
 inventory={str(p.relative_to(ROOT)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.parts and p.name not in {'MANIFEST.json','STRUCTURE_CHECK.json'}}
 official_path=ROOT/'evidence/SKILL_CREATOR_CHECK.json'
 official=json.loads(official_path.read_text(encoding='utf8')) if official_path.exists() else {'passed':False,'message':'not recorded'}
-result={'passed':not errors,'errors':errors,'corpus_records':{k:len(v) for k,v in corpora.items()},'additional_jmps_high_citation_records':supplement_count,'total_unique_records':len(set(all_dois)),'scope':'restricted frontmatter, local links, corpus counts/DOI uniqueness and distribution scan; no proof of scholarly correctness','bundled_quick_validate':official,'files':inventory}
+result={'passed':not errors,'errors':errors,'corpus_records':{k:len(v) for k,v in corpora.items()},'additional_jmps_high_citation_records':supplement_count,'total_unique_records':len(set(all_dois)),'language_window_records':language_counts,'scope':'restricted frontmatter, links, corpus uniqueness, language IDs/splits and distribution scan; no proof of scholarly correctness','bundled_quick_validate':official,'files':inventory}
 (ROOT/'evidence/STRUCTURE_CHECK.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
 print(json.dumps({k:v for k,v in result.items() if k!='files'},ensure_ascii=False,indent=2))
 raise SystemExit(0 if not errors else 1)

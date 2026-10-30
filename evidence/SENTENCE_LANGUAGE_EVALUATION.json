@@ -1,0 +1,40 @@
+{
+  "version": "0.2",
+  "date": "2026-10-30",
+  "study_scope": "conclusion or selected final scientific paragraph window, not full-paper or full-conclusion reading",
+  "windows_read": 164,
+  "jmps": {
+    "windows": 68,
+    "detailed": 18,
+    "other_windows_at_most_extracted_characters": 700,
+    "independently_spotchecked": 14
+  },
+  "nature": {
+    "windows": 48,
+    "valid_conclusion_or_closing": 47,
+    "detailed_closing": 21,
+    "background_only": [
+      "N19"
+    ],
+    "independently_spotchecked": 10
+  },
+  "other_journals": {
+    "windows": 48,
+    "detailed": 19,
+    "initial_window_at_most_characters": 750,
+    "review_comparator_only": [
+      "O25"
+    ],
+    "independently_spotchecked": 10
+  },
+  "eligible_closing_or_review_comparator": 163,
+  "detailed_closing_examples": 58,
+  "actual_grammar_spotchecks": 34,
+  "original_holdouts_used_for_induction": 0,
+  "corrections": "JMPS J01 sequence; Nature N08, N14, N41 syntax/strength and N25 referent; subsequently rechecked",
+  "behavior_test": "three novel synthetic cases, two actual outputs per case, independently reviewed; non-blind and qualitative",
+  "baseline_superiority_proven": false,
+  "earlier_overlapping_test_excluded": true,
+  "manuscript_edited": false,
+  "v01_evaluation": "EVALUATION.json is the original release evaluation and its frozen hashes refer to v0.1."
+}

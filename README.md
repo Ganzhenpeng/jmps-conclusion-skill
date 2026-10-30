@@ -8,6 +8,8 @@
 
 > 使用 $jmps-conclusion，将这段结论改成自然英文，保留模型假设、数值、比较方向和证据强度。
 
+v0.2新增[句子语言与衔接](jmps-conclusion/references/sentence-language.md)：针对主语选择、主句与条件从句、相邻句的信息承接及名词串压缩给出可核源文观察和原创对照。相关记录见 `evidence/sentence_language_*`；原v0.1评测记录保留，新增研究和测试另见 `evidence/SENTENCE_LANGUAGE_EVALUATION.json`。
+
 本轮完成 **180篇百次累计引用样本**：JMPS 60、Nature主刊60、其他刊60（Nature Communications 25、Science Advances 31、PNAS 4）；另外保留25篇JMPS相关性锚点，共 **205篇**。研究对象是结论、Discussion末段及必要局部上下文，**不是205篇全文科学评审，也没有训练基础模型**。
 
 高引用以公开数据库2026-10-30快照记录，≥100次是本轮操作口径，并非学科归一化认证或全刊最高引排名。初始JMPS60篇只有35篇达到门槛，因此另补25篇高引论文，保留初始25篇较低引锚点。原始三组各48篇归纳/12篇留出，补样20篇归纳/5篇留出；共164篇归纳和41篇冻结留出。归纳样本独立抽查35篇，实际生成测试与家族独立性限制分别报告。方法与偏差见[证据范围](jmps-conclusion/references/evidence-scope.md)，逐篇记录在[evidence/](evidence/)。

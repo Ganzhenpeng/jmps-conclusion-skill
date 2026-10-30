@@ -1,0 +1,100 @@
+{
+  "test_design": "Same three synthetic English inputs; old and candidate skills used by different agents, followed by human-style comparison by a third agent. Non-blind: both generators participated in this round of literature/style work. No randomization, statistical inference, or real-manuscript validation.",
+  "input_sha256": "584a0c2059c35233ca4d6fa499d3aa1c277e8321bd41cbdb5b0328d10a5d8f02",
+  "cases": [
+    {
+      "id": "A",
+      "synthetic_input": "Experiments on four tested polymer networks show that increasing the loading rate raises the peak force. The dissipated energy also rises, but the increase is smaller at the highest tested rate. The temperature is fixed in this comparison. These remarkable and comprehensive results provide a very significant insight into the outstanding rate-dependent behavior of all polymer materials.",
+      "baseline_output": "At fixed temperature, the peak force increased with loading rate in all four polymer networks tested. Dissipated energy also rose, although its increase was smaller at the highest tested rate.",
+      "candidate_output": "At fixed temperature, tests on four polymer networks show that peak force and dissipated energy rise with loading rate, although the increase in dissipated energy is smaller at the highest rate tested.",
+      "review": {
+        "id": "A",
+        "required_facts": [
+          "四种已测聚合物网络",
+          "恒温",
+          "加载速率增加时峰值力升高",
+          "耗散能增加且在最高已测试速率下增幅较小",
+          "不把结果推广到所有聚合物"
+        ],
+        "baseline": {
+          "fidelity": "基本保留事实及范围；‘in all four ... tested’逐个量词比输入‘对四种网络的实验显示’更明确，如果原数据只给合并结果则有轻微强化风险，输入未给逐一数据以裁定。",
+          "language": "两个短句以峰值力和耗散能分别作主语，第二句also和although使两项响应及差异清楚。",
+          "word_count_regex": 30,
+          "sentence_count": 2
+        },
+        "candidate": {
+          "fidelity": "保留四网络、恒温、加载速率、峰值力及耗散能关系，并将较小增幅明确限定于耗散能和最高已测速率。",
+          "language": "把两项响应合在一个that从句，although从句限制耗散能增幅，物理对象与修饰语对应清楚；全句略长但读起来连贯。",
+          "word_count_regex": 32,
+          "sentence_count": 1
+        },
+        "comparison": "两稿均清楚且准确，没有显著强弱；候选版并列响应且对最高速率的差异限定更紧凑，旧版两句更易逐项扫描。候选并不更少词；旧版‘all four’是否强化取决于未给出的逐样本证据。"
+      }
+    },
+    {
+      "id": "B",
+      "synthetic_input": "For the tested metal specimen, the computed crack path matches the observed path under the same loading history. Near the specimen boundary, the computed local stress does not match the stress inferred from the measurements. The calculations used the measured geometry as input. These results comprehensively validate the mechanism and provide accurate stress predictions everywhere.",
+      "baseline_output": "For the tested metal specimen, calculations using the measured geometry reproduced the observed crack path under the same loading history. Near the specimen boundary, however, the computed local stress differed from that inferred from measurements.",
+      "candidate_output": "Using the measured geometry, the calculation reproduces the observed crack path in the tested metal specimen under the same loading history. Near the specimen boundary, however, the computed local stress differs from that inferred from the measurements.",
+      "review": {
+        "id": "B",
+        "required_facts": [
+          "已测金属试件",
+          "相同加载历史",
+          "使用实测几何作为计算输入",
+          "路径相符",
+          "试件边界附近局部应力与测量推断不相符",
+          "严格两句",
+          "不能称机制全域验证"
+        ],
+        "baseline": {
+          "fidelity": "几何输入、试件、加载历史、路径一致及近边界应力差异均保留；未称独立全域验证。",
+          "language": "第一句将using短语置于calculations之后，第二句以near the boundary和however标出同一试件上的对照，句际关系自然。",
+          "word_count_regex": 35,
+          "sentence_count": 2
+        },
+        "candidate": {
+          "fidelity": "同样保留实测几何输入、试件、相同加载历史、路径与近边界应力差异，未扩大验证范围。",
+          "language": "第一句将using measured geometry前置，主句仍明确calculation为执行者；第二句以相同位置和however引出边界反例，语义可理解。",
+          "word_count_regex": 37,
+          "sentence_count": 2
+        },
+        "comparison": "两稿均满足严格两句，证据角色和对照均完整；主语顺序略有不同，未观察到足以支持新版更好的差异。"
+      }
+    },
+    {
+      "id": "C",
+      "synthetic_input": "In a finite-strain constitutive calculation with the considered hardening law, the predicted load increases as the imposed displacement increases. The comparison uses a single specimen geometry and does not distinguish the contributions of elasticity and plasticity to this increase. The elasticity-plasticity-coupled displacement-dependent load response enhancement mechanism is definitively established for all geometries and loading histories.",
+      "baseline_output": "For the single specimen geometry considered, the finite-strain calculation with the specified hardening law predicts an increase in load with imposed displacement. The respective contributions of elasticity and plasticity to this increase were not separated.",
+      "candidate_output": "For the single specimen geometry considered, the finite-strain calculation with the specified hardening law predicts an increase in load with imposed displacement. The comparison does not separate the contributions of elasticity and plasticity to this increase.",
+      "review": {
+        "id": "C",
+        "required_facts": [
+          "有限应变计算",
+          "指定硬化律",
+          "单个试件几何",
+          "预测载荷随所施位移增加",
+          "弹性与塑性的贡献未被区分",
+          "不宣称普适机理被证明"
+        ],
+        "baseline": {
+          "fidelity": "单一几何、有限应变、硬化律、预测关系和贡献未分离均保留，无全局证明或新因果。",
+          "language": "第一句的计算作主语并给出预测；第二句以respective contributions为主语，衔接上一句载荷增长并说尚未分离。原名词串被拆成明确谓语。",
+          "word_count_regex": 35,
+          "sentence_count": 2
+        },
+        "candidate": {
+          "fidelity": "同样保留指定模型、单一几何、预测关系和未区分贡献，未添加数值或机制。",
+          "language": "第一句与旧稿相同；第二句以comparison为主语、does not separate作谓语，明确哪个比较未做分解，但与旧稿语义几乎一致。",
+          "word_count_regex": 36,
+          "sentence_count": 2
+        },
+        "comparison": "两稿科学内容、清晰度和句间关系基本相当。新版第二句更显式地把限制归给比较，旧版以待区分的贡献为主题；本题不能体现可靠的优越性。"
+      }
+    }
+  ],
+  "overall": "两种能力在三个输入上都完成了任务。两项B输出均为两句；C两种表达几乎相同。A的旧稿逐个量词存在条件性强化疑问，但不足以据此判定整套新版更好。该同输入小样本提供可复核的保真与语言实例，不证明新版的总体自然度、精炼度或性能优于旧版。",
+  "baseline_version": "0.1",
+  "candidate_version": "0.2",
+  "earlier_overlapping_test": "not an independent comparison; excluded"
+}

@@ -8,19 +8,24 @@
   },
   "additional_jmps_high_citation_records": 25,
   "total_unique_records": 205,
-  "scope": "restricted frontmatter, local links, corpus counts/DOI uniqueness and distribution scan; no proof of scholarly correctness",
+  "language_window_records": {
+    "jmps": 68,
+    "nature": 48,
+    "other": 48
+  },
+  "scope": "restricted frontmatter, links, corpus uniqueness, language IDs/splits and distribution scan; no proof of scholarly correctness",
   "bundled_quick_validate": {
     "passed": true,
     "message": "Skill is valid!",
     "validator": "skill-creator/scripts/quick_validate.py (unmodified)",
     "yaml_version": "6.0.3",
-    "dependency_scope": "isolated local QA directory only; not a skill runtime dependency",
-    "ui_metadata_checks": "passed"
+    "dependency_scope": "isolated local QA only",
+    "ui_metadata_checks": "unchanged from v0.1"
   },
   "files": {
     ".gitattributes": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
     ".gitignore": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672",
-    "README.md": "bcdc84d8c767facfd43840e92f181b02268ab096b04c2f986fdbb835b1d4dca0",
+    "README.md": "d2cdd7f629c726cd90e018c1d5e5a101df193b254c772c741345ce80c15207f8",
     "evidence/BEHAVIOR_EXAMPLES.json": "de432268567f8ee5ef5b328e2189758914d79e4f3c2e01b3c3a705d1516b423f",
     "evidence/EVALUATION.json": "ec68cbb6259b687875feecc344f185a15910470e2b0a658461d9a6ea24a4736a",
     "evidence/HIGH_CITATION_180.json": "9b61ab1f72f8d5e183c7fe5f39d95620313aa20be071dcb7e32915f4da94bab7",
@@ -32,13 +37,22 @@
     "evidence/NATURE_OBSERVATIONS.md": "df2aebfb572eceea8c202d467af0fb1fbcc58c8cf5a17b835b2c666540c70cb2",
     "evidence/other.jsonl": "6107ee56f2cb3964e775c748d4c0de7472900aded2cefcc7052e090b99f45f98",
     "evidence/OTHER_OBSERVATIONS.md": "a676884a9d06d46f23828d2abe6f746dceebd843b43c6983d22f147c9c08828d",
-    "evidence/SKILL_CREATOR_CHECK.json": "2ce9e3930de60dfbf44059ba595f85fbd5045d6cec7bfa090f69659bd018a88d",
-    "jmps-conclusion/SKILL.md": "5cfde2a361eae481a89cfa90e7993fda4e742e81b4215a256eb19af8125e8000",
-    "tests/validate_bundle.py": "7421403724658947023eeef7edbccc83acf6c97b85e89b6a5ad11d6eec009585",
+    "evidence/sentence_language_behavior.json": "432fce75a226043a8e93a8f19f113466d60247ad6c61b09a861606c43bdc5038",
+    "evidence/SENTENCE_LANGUAGE_EVALUATION.json": "c0422035a221060b07ba3054aedf49574861fcc67c4abb86dd8a31ac6b60b83f",
+    "evidence/sentence_language_jmps.jsonl": "d18cf0f46d4c0aed6f95895082b3efbe5c651576d07d493d9d899224a16f50a7",
+    "evidence/sentence_language_jmps_summary.md": "fdfd22ebd246099a6688bc6fab35870e99a418b18eb1e2da95c494843098b5b6",
+    "evidence/sentence_language_nature.jsonl": "9f903fa707984e743d0231a5d8cb4df6edfeddd4c3735d030fb925d3d1ef13fc",
+    "evidence/sentence_language_nature_summary.md": "bf7c9c03a3cd549a5bd073a9ac59256c42d0cf7bd5591d2d035c828558744494",
+    "evidence/sentence_language_other.jsonl": "2be90b2bd053d0497a14483861c7745f666e0c8b9ebe2745d064df3e657d6138",
+    "evidence/sentence_language_other_summary.md": "96b42d97d5144f698c6735201441c3bf9e1f9cf2176db14f72cabb039618954d",
+    "evidence/SKILL_CREATOR_CHECK.json": "3ffddc863380befef24a4d55d098813a9d5978d8a72d86d77cc943780f8511f9",
+    "jmps-conclusion/SKILL.md": "ce648fb51add5a6bf531c5df23e88376e49e2f57e159a3400835a8d24b86bc01",
+    "tests/validate_bundle.py": "25788497126c17549239c04e63cb029e2ca8c55199ed9fbeb95ed6dd727c624c",
     "jmps-conclusion/agents/openai.yaml": "f11ccdb02686afbfe3429ff082d2ca8cb06938e496837aa2c58d9d876b1f9835",
     "jmps-conclusion/references/conclusion-craft.md": "b95fe48cf547515c5e035e90bbb3cb16a4421daedcd3dab7afcd359381c271dd",
-    "jmps-conclusion/references/evidence-scope.md": "1952ff234be3de19e45f15c0f7a84ea857f8923144ebaf571ea0365606f944dd",
+    "jmps-conclusion/references/evidence-scope.md": "ed8c6a314d29fa26e788b8c873fa041f8847954822df1a19381e9a022c471e97",
     "jmps-conclusion/references/failure-patterns.md": "6f676bcf178014e3f62516ce714aad10f6b5b99d5e99a5b69fc8dad38872c8f7",
-    "jmps-conclusion/references/project-adaptation.md": "4e4356d329b17ff788bb3bc806a11f367faf74b346714f138c28b918ead2229d"
+    "jmps-conclusion/references/project-adaptation.md": "4e4356d329b17ff788bb3bc806a11f367faf74b346714f138c28b918ead2229d",
+    "jmps-conclusion/references/sentence-language.md": "a1e5499e52d1fc96f8b24c77d76c3025274898e28613551c010112c6b1a59a9e"
   }
 }
